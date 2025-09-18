@@ -1,0 +1,1099 @@
+[
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "relu",
+                    "neurons": 90,
+                    "type": "lstm"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 20,
+                    "type": "rnn"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 40,
+                    "type": "gru"
+                }
+            ]
+        },
+        "score": 0.0004430300323292613
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "relu",
+                    "neurons": 90,
+                    "type": "lstm"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 20,
+                    "type": "rnn"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 40,
+                    "type": "gru"
+                }
+            ]
+        },
+        "score": 0.0004430300323292613
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 90,
+                    "type": "lstm"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 20,
+                    "type": "rnn"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 40,
+                    "type": "gru"
+                }
+            ]
+        },
+        "score": 0.0004430300323292613
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "sigmoid",
+                    "neurons": 90,
+                    "type": "lstm"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 20,
+                    "type": "rnn"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 40,
+                    "type": "gru"
+                }
+            ]
+        },
+        "score": 0.0004430300323292613
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 90,
+                    "type": "gru"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 20,
+                    "type": "gru"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 40,
+                    "type": "gru"
+                }
+            ]
+        },
+        "score": 0.0004430300323292613
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "relu",
+                    "neurons": 90,
+                    "type": "gru"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 20,
+                    "type": "gru"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 40,
+                    "type": "gru"
+                }
+            ]
+        },
+        "score": 0.0004430300323292613
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "relu",
+                    "neurons": 90,
+                    "type": "lstm"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 20,
+                    "type": "gru"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 40,
+                    "type": "gru"
+                }
+            ]
+        },
+        "score": 0.0004430300323292613
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 90,
+                    "type": "lstm"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 20,
+                    "type": "gru"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 40,
+                    "type": "gru"
+                }
+            ]
+        },
+        "score": 0.0004430300323292613
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 100,
+                    "type": "bi-lstm"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 20,
+                    "type": "gru"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 60,
+                    "type": "rnn"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 50,
+                    "type": "lstm"
+                }
+            ]
+        },
+        "score": 0.000509241595864296
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 100,
+                    "type": "bi-lstm"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 20,
+                    "type": "gru"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 60,
+                    "type": "rnn"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 50,
+                    "type": "gru"
+                }
+            ]
+        },
+        "score": 0.000509241595864296
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "relu",
+                    "neurons": 90,
+                    "type": "lstm"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 20,
+                    "type": "rnn"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 60,
+                    "type": "gru"
+                },
+                {
+                    "activation": "sigmoid",
+                    "neurons": 50,
+                    "type": "cnn"
+                }
+            ]
+        },
+        "score": 0.0005858084768988192
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 90,
+                    "type": "lstm"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 20,
+                    "type": "rnn"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 60,
+                    "type": "gru"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 50,
+                    "type": "cnn"
+                }
+            ]
+        },
+        "score": 0.0005858084768988192
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 90,
+                    "type": "lstm"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 20,
+                    "type": "rnn"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 60,
+                    "type": "gru"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 50,
+                    "type": "lstm"
+                }
+            ]
+        },
+        "score": 0.0005858084768988192
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "sigmoid",
+                    "neurons": 90,
+                    "type": "lstm"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 20,
+                    "type": "rnn"
+                },
+                {
+                    "activation": "sigmoid",
+                    "neurons": 60,
+                    "type": "gru"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 50,
+                    "type": "lstm"
+                }
+            ]
+        },
+        "score": 0.0005858084768988192
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 90,
+                    "type": "gru"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 20,
+                    "type": "gru"
+                },
+                {
+                    "activation": "sigmoid",
+                    "neurons": 60,
+                    "type": "gru"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 50,
+                    "type": "lstm"
+                }
+            ]
+        },
+        "score": 0.0005858084768988192
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "relu",
+                    "neurons": 90,
+                    "type": "gru"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 20,
+                    "type": "gru"
+                },
+                {
+                    "activation": "sigmoid",
+                    "neurons": 60,
+                    "type": "gru"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 50,
+                    "type": "lstm"
+                }
+            ]
+        },
+        "score": 0.0005858084768988192
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "relu",
+                    "neurons": 90,
+                    "type": "gru"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 20,
+                    "type": "gru"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 60,
+                    "type": "gru"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 50,
+                    "type": "lstm"
+                }
+            ]
+        },
+        "score": 0.0005858084768988192
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "relu",
+                    "neurons": 90,
+                    "type": "gru"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 20,
+                    "type": "gru"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 60,
+                    "type": "rnn"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 50,
+                    "type": "lstm"
+                }
+            ]
+        },
+        "score": 0.0005858084768988192
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "relu",
+                    "neurons": 90,
+                    "type": "lstm"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 20,
+                    "type": "gru"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 60,
+                    "type": "rnn"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 50,
+                    "type": "lstm"
+                }
+            ]
+        },
+        "score": 0.0005858084768988192
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 90,
+                    "type": "lstm"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 20,
+                    "type": "gru"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 60,
+                    "type": "rnn"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 50,
+                    "type": "gru"
+                }
+            ]
+        },
+        "score": 0.0005858084768988192
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 100,
+                    "type": "rnn"
+                },
+                {
+                    "activation": "sigmoid",
+                    "neurons": 50,
+                    "type": "cnn"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 60,
+                    "type": "gru"
+                },
+                {
+                    "activation": "sigmoid",
+                    "neurons": 50,
+                    "type": "gru"
+                }
+            ]
+        },
+        "score": 0.00062649353640154
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 100,
+                    "type": "rnn"
+                },
+                {
+                    "activation": "sigmoid",
+                    "neurons": 50,
+                    "type": "cnn"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 60,
+                    "type": "gru"
+                },
+                {
+                    "activation": "sigmoid",
+                    "neurons": 50,
+                    "type": "cnn"
+                }
+            ]
+        },
+        "score": 0.00062649353640154
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 100,
+                    "type": "lstm"
+                },
+                {
+                    "activation": "sigmoid",
+                    "neurons": 50,
+                    "type": "cnn"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 60,
+                    "type": "gru"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 50,
+                    "type": "cnn"
+                }
+            ]
+        },
+        "score": 0.00062649353640154
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 100,
+                    "type": "lstm"
+                },
+                {
+                    "activation": "sigmoid",
+                    "neurons": 50,
+                    "type": "cnn"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 60,
+                    "type": "gru"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 50,
+                    "type": "lstm"
+                }
+            ]
+        },
+        "score": 0.00062649353640154
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 100,
+                    "type": "gru"
+                },
+                {
+                    "activation": "sigmoid",
+                    "neurons": 50,
+                    "type": "cnn"
+                },
+                {
+                    "activation": "sigmoid",
+                    "neurons": 60,
+                    "type": "gru"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 50,
+                    "type": "lstm"
+                }
+            ]
+        },
+        "score": 0.00062649353640154
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 100,
+                    "type": "gru"
+                },
+                {
+                    "activation": "sigmoid",
+                    "neurons": 50,
+                    "type": "cnn"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 60,
+                    "type": "gru"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 50,
+                    "type": "lstm"
+                }
+            ]
+        },
+        "score": 0.00062649353640154
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 100,
+                    "type": "gru"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 50,
+                    "type": "gru"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 60,
+                    "type": "rnn"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 50,
+                    "type": "lstm"
+                }
+            ]
+        },
+        "score": 0.00062649353640154
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 100,
+                    "type": "bi-lstm"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 50,
+                    "type": "gru"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 60,
+                    "type": "rnn"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 50,
+                    "type": "lstm"
+                }
+            ]
+        },
+        "score": 0.00062649353640154
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 100,
+                    "type": "bi-lstm"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 50,
+                    "type": "gru"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 60,
+                    "type": "rnn"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 50,
+                    "type": "gru"
+                }
+            ]
+        },
+        "score": 0.00062649353640154
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 90,
+                    "type": "lstm"
+                },
+                {
+                    "activation": "sigmoid",
+                    "neurons": 50,
+                    "type": "cnn"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 60,
+                    "type": "gru"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 50,
+                    "type": "lstm"
+                }
+            ]
+        },
+        "score": 0.000673581613227725
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "sigmoid",
+                    "neurons": 90,
+                    "type": "lstm"
+                },
+                {
+                    "activation": "sigmoid",
+                    "neurons": 50,
+                    "type": "cnn"
+                },
+                {
+                    "activation": "sigmoid",
+                    "neurons": 60,
+                    "type": "gru"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 50,
+                    "type": "lstm"
+                }
+            ]
+        },
+        "score": 0.000673581613227725
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 90,
+                    "type": "gru"
+                },
+                {
+                    "activation": "sigmoid",
+                    "neurons": 50,
+                    "type": "cnn"
+                },
+                {
+                    "activation": "sigmoid",
+                    "neurons": 60,
+                    "type": "gru"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 50,
+                    "type": "lstm"
+                }
+            ]
+        },
+        "score": 0.000673581613227725
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "relu",
+                    "neurons": 90,
+                    "type": "gru"
+                },
+                {
+                    "activation": "sigmoid",
+                    "neurons": 50,
+                    "type": "cnn"
+                },
+                {
+                    "activation": "sigmoid",
+                    "neurons": 60,
+                    "type": "gru"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 50,
+                    "type": "lstm"
+                }
+            ]
+        },
+        "score": 0.000673581613227725
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "relu",
+                    "neurons": 90,
+                    "type": "gru"
+                },
+                {
+                    "activation": "sigmoid",
+                    "neurons": 50,
+                    "type": "cnn"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 60,
+                    "type": "gru"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 50,
+                    "type": "lstm"
+                }
+            ]
+        },
+        "score": 0.000673581613227725
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "relu",
+                    "neurons": 90,
+                    "type": "gru"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 50,
+                    "type": "gru"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 60,
+                    "type": "rnn"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 50,
+                    "type": "lstm"
+                }
+            ]
+        },
+        "score": 0.000673581613227725
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "relu",
+                    "neurons": 90,
+                    "type": "lstm"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 50,
+                    "type": "gru"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 60,
+                    "type": "rnn"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 50,
+                    "type": "lstm"
+                }
+            ]
+        },
+        "score": 0.000673581613227725
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 90,
+                    "type": "lstm"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 50,
+                    "type": "gru"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 60,
+                    "type": "rnn"
+                },
+                {
+                    "activation": "tanh",
+                    "neurons": 50,
+                    "type": "gru"
+                }
+            ]
+        },
+        "score": 0.000673581613227725
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 100,
+                    "type": "rnn"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 10,
+                    "type": "gru"
+                }
+            ]
+        },
+        "score": 0.0007073607412166893
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 100,
+                    "type": "lstm"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 10,
+                    "type": "gru"
+                }
+            ]
+        },
+        "score": 0.0007073607412166893
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 100,
+                    "type": "lstm"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 10,
+                    "type": "cnn"
+                }
+            ]
+        },
+        "score": 0.0007073607412166893
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 100,
+                    "type": "gru"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 10,
+                    "type": "cnn"
+                }
+            ]
+        },
+        "score": 0.0007073607412166893
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 100,
+                    "type": "gru"
+                },
+                {
+                    "activation": "sigmoid",
+                    "neurons": 10,
+                    "type": "cnn"
+                }
+            ]
+        },
+        "score": 0.0007073607412166893
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 50,
+                    "type": "bi-lstm"
+                }
+            ]
+        },
+        "score": 0.0007241527200676501
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "relu",
+                    "neurons": 50,
+                    "type": "bi-lstm"
+                }
+            ]
+        },
+        "score": 0.0007241527200676501
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "tanh",
+                    "neurons": 50,
+                    "type": "lstm"
+                }
+            ]
+        },
+        "score": 0.0007467058603651822
+    },
+    {
+        "architecture": {
+            "layers": [
+                {
+                    "activation": "relu",
+                    "neurons": 30,
+                    "type": "lstm"
+                },
+                {
+                    "activation": "relu",
+                    "neurons": 10,
+                    "type": "gru"
+                }
+            ]
+        },
+        "score": 0.0008180716540664434
+    }
+]
